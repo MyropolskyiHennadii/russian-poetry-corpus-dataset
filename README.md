@@ -82,14 +82,14 @@ See the [PoetryCorpusModel](https://github.com/MyropolskyiHennadii/PoetryCorpusM
 | `id_metrical_line` | INT | Primary key |
 | `id_verse` | INT | FK → `poems` |
 | `row_key` | INT | Line position within the poem |
-| `line` | TEXT | Original text of the line |
+| `line` | VARCHAR | Original text of the line |
 | `representation` | VARCHAR | Numerical stress pattern (e.g., `0010010`) |
 | `meter_group` | VARCHAR | Meter type name (e.g., Анапест) |
 | `number_of_tonic_feet` | INT | Number of metrical feet |
 | `representation_with_spaces` | VARCHAR | Stress pattern split by words (e.g., `0 01 0 010`) |
 | `irregularity_on_syllable` | INT | Syllable position of metrical irregularity (0 = none) |
 | `length` | INT | Total number of syllables in the line |
-| `ending` | INT | Clausula type: `1` = masculine, `10` = feminine, `100` = dactylic, etc. (pattern mirrors the ending stress) |
+| `ending` | VARCHAR | Clausula type: `1` = masculine, `10` = feminine, `100` = dactylic, etc. (pattern mirrors the ending stress) |
 
 ### Entity Relationships
 
