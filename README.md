@@ -243,9 +243,8 @@ For questions, suggestions, or collaboration opportunities.
 
 If you use this database in research or publications, please cite:
 
-<!-- TODO: Update with actual repository URL before release -->
 > Myropolskyi, H. (2026). Russian Poetry Corpus Dataset. GitHub.
-> https://github.com/MyropolskyiHennadii/ArtefactsLocation-data
+> https://github.com/MyropolskyiHennadii/russian-poetry-corpus-dataset
 
 ---
 
