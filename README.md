@@ -50,8 +50,7 @@ Example rows from `metrical_lines`:
 [Latest version](../../releases/latest) - `russian-poetry-corpus-dataset` (~ 10MB)
 
 ### Zenodo (Permanent Archive)
-<!-- TODO: Update with actual Zenodo DOI URL before release -->
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19435427.svg)](https://doi.org/10.5281/zenodo.19435427)
 
 The Zenodo archive provides a permanent, citable version with guaranteed long-term preservation backed by CERN.
 
