@@ -4,13 +4,15 @@ A structured dataset of metric, strophic, rhyme, and grammatical analysis of Rus
 
 ## Description
 
-The dataset contains numerical representations of poetic meter, strophic structure, rhyme patterns, and grammatical analysis for selected Russian poets. Syntax analysis is in progress: sentence segmentation of poems is complete (`poem_sentences`), but clause-level parsing (`sub_sentences`, `extracted_ranges`, `coordinate_segments`) is still being developed.
+The dataset contains numerical representations of poetic meter, strophic structure, rhyme patterns, and grammatical analysis for selected Russian poets.
 
 The key distinction from [The Russian National Corpus](https://ruscorpora.ru/en) is the **numerical representation of verse metrics** (e.g., `01010101` instead of "четырёхстопный ямб" / "iambic tetrameter"), enabling computational and statistical analysis.
 
 ### Known Limitations
 
 Corpora are not fully complete for each poet — estimated coverage is 90% or above. This level of completeness is sufficient for corpus-level analysis.
+
+Syntax analysis is in progress: sentence segmentation of poems is complete (`poem_sentences`), but clause-level parsing (`sub_sentences`, `extracted_ranges`, `coordinate_segments`) is still being developed.
 
 ## Statistics
 
@@ -142,7 +144,6 @@ MetersGroup (standalone, no FK relations)
 
 ### SQL Files
 
-<!-- TODO: Update with actual filenames included in the release -->
 The release archive contains the following SQL files (import in this order due to FK dependencies):
 
 1. `authors.sql`
@@ -167,7 +168,7 @@ The release archive contains the following SQL files (import in this order due t
 
 2. **Extract the zip file:**
    ```bash
-   unzip russian-poetry-corpus-dataset-v1.0.0.zip
+   unzip russian-poetry-corpus-dataset.zip
    ```
 
 3. **Import SQL files:**
