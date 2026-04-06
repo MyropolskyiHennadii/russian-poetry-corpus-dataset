@@ -47,8 +47,7 @@ Example rows from `metrical_lines`:
 ## Download
 
 ### GitHub Releases
-<!-- TODO: Update with actual filename and size before release -->
-[Latest version](../../releases/latest) - `russian-poetry-corpus-dataset-v1.0.0.zip` (~ MB)
+[Latest version](../../releases/latest) - `russian-poetry-corpus-dataset` (~ 10MB)
 
 ### Zenodo (Permanent Archive)
 <!-- TODO: Update with actual Zenodo DOI URL before release -->
@@ -140,7 +139,7 @@ MetersGroup (standalone, no FK relations)
 
 ### Requirements
 - MySQL 5.7+ or MariaDB 10.3+
-- Approximately 500 MB disk space
+- Approximately 100 MB disk space
 
 ### SQL Files
 
