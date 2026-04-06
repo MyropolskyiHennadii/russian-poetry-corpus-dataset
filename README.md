@@ -10,7 +10,7 @@ The key distinction from [The Russian National Corpus](https://ruscorpora.ru/en)
 
 ### Known Limitations
 
-Corpora are not yet complete for each poet but are approaching completeness. Coverage varies by author — some poets have near-complete corpora while others are still in progress.
+Corpora are not fully complete for each poet — estimated coverage is 90% or above. This level of completeness is sufficient for corpus-level analysis.
 
 ## Statistics
 
